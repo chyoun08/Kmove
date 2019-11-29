@@ -1,0 +1,49 @@
+tml,body{
+background-image: url('544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.wrap {
+  position: absolute;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.wrap > a {
+  -webkit-transition: all 800ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -moz-transition: all 800ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -ms-transition: all 800ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -o-transition: all 800ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  transition: all 800ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  display: block;
+  margin: 20px auto;
+  max-width: 400px;
+  text-decoration: none;
+  border-radius: 400px;
+}
+
+.wrap > a.button {
+  text-decoration: none;
+  color: black;
+  background-color: #FACC2E;
+  opacity: 0.8;
+  box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 5px inset;
+  border-radius:400px;
+  width:400px;
+  height:400px;
+}
+
+.wrap > a.button:hover {
+  color: black;
+  opacity: 1;
+  box-shadow: #FFFF24 0 0px 0px 400px inset;
+}
+
+.wrap > a.button > p{
+  padding: 20%;
+  font-size: 45px;
+  font-weight: bold;
+}
